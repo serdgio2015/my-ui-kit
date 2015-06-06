@@ -1,0 +1,48 @@
+
+.tipografics-h1,
+.tipografics-h2,
+.tipografics-h3,
+.tipografics-paragraf,
+.tipografics-paragraf--small {
+		font-family: @tipografics-font;
+		font-weight: normal;
+		margin-top: 13px;
+		margin-bottom: 13px;
+}
+
+.tipografics-h1 {
+	font-size: @tipografics-h1-size;
+	margin-top: -13px;
+}
+
+.tipografics-h2 {
+	font-size: @tipografics-h2-size;
+}
+
+.tipografics-h3 {
+	font-size: @tipografics-h3-size;
+}
+
+.tipografics-paragraf {
+	font-size: @base-paragraf-size;
+	font-weight: bold;
+
+	&--small {
+		font-size: @paragraf-mini-size;
+		margin-bottom: 13px;
+		line-height: 22px;
+		max-width: 450px;
+	}
+}
+
+.typographics-links a {
+	color: @red-link;
+
+	&:first-child {
+		margin-right: 15px;
+	}
+
+	&:hover {
+		text-decoration: none;
+	}
+}

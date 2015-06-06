@@ -1,0 +1,58 @@
+
+.bread-crumbs {
+	background: #fff;
+	border-radius: 4px;
+	width: 315px;
+	margin-bottom: 30px;
+
+	&__menu-list {
+		position: relative;
+		list-style: none;
+		padding-left: 20px;
+	}
+	
+	&__menu-list:after {
+		content: '';
+		clear: both;
+		display: table;
+	}
+
+	&__menu-item {
+		float: left;
+		height: 50px;
+		padding-left: 3px;
+	}
+	
+	&__menu-item:first-child {
+		position: relative;
+		float: left;
+		height: 50px;
+		padding-left: 30px;
+	}
+
+	&__menu-item:first-child::after {
+		content: '';
+		position: absolute;
+		top: 19px;
+		left: 0;
+		width: 20px;
+		height: 14px;
+		background: url('../images/sprite2.png') no-repeat;
+		background-position: -80px 0;
+	}
+
+	&__menu-item:last-child a {
+		text-decoration: none;
+	}
+
+	&__menu-link {
+		line-height: 50px;
+		font-family: 'Pt-sans';
+		font-size: 15px;
+		color: #353535;
+	}
+
+	&__menu-link:hover {
+		text-decoration: none;
+	}
+}

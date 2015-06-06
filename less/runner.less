@@ -1,0 +1,36 @@
+
+.runner {
+	float: left;
+	background: #fff;
+	border-radius: 4px;
+	padding: 30px 30px 0;
+	width: 355px;
+	height: 90px;
+
+	.runner__slid-path {
+		background: @pale-runner;
+		border: none;
+		height: 8px;
+
+		.ui-slider-range {
+			background: @red-checked;
+		}
+
+		.ui-slider-handle {
+			background: @red-checked;
+			border: 2px solid #fff;
+			width: 18px;
+			height: 18px;
+			border-radius: 50%;
+			top: -5px;
+		}
+	}
+
+	input {
+		border: none;
+		color: #525252;
+		font-family: 'Roboto-regular';
+		font-size: 15px;
+		margin-bottom: 10px;
+	}
+}
